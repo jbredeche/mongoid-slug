@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "mongoid_slug"
 
-  s.add_dependency("mongoid", "~> 2.0.0")
+  s.add_dependency("mongoid", "~> 2.0.0.beta.20")
   s.add_dependency("stringex", "~> 1.2.0")
 
   s.files         = Dir.glob("lib/**/*") + %w(LICENSE README.md)
